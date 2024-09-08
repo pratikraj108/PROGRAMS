@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+}
+#b1 {
+    background-color: aqua;
+}
+#b2 {
+    background-color: pink;
+}
+#b3 {
+    background-color: darkkhaki;
+}
+#b4 {
+    background-color: indianred;
+}
+#b5 {
+    background-color: slateblue;
+}
