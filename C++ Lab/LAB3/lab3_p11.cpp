@@ -28,7 +28,7 @@ void Array::display(){
 }
 void Array::deallocate(){
 	int *p=new int[size];
-	delete[]p;
+	delete p;
 	p=NULL;
 	cout<<"\n deallocate success:";
 }

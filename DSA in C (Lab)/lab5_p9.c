@@ -4,13 +4,18 @@ void quicksort(int arr[], int beg, int end);
 int main()
 {
     int arr[12], i;
-    printf("Enter the elements of the array: ");
+    printf("Enter 12 values needs to be sort:\n");
     for (i = 0; i < 12; i++)
     {
         scanf("%d", &arr[i]);
     }
+    printf("Unsorted list as follows:\n");
+    for (i = 0; i < 12; i++)
+    {
+        printf("%d ",arr[i]);
+    }
     quicksort(arr, 0, 12 - 1);
-    printf("The sorted array is: ");
+    printf("\nThe sorted list as follows:\n ");
     for (i = 0; i < 12; i++)
     {
         printf("%d ", arr[i]);
