@@ -5,14 +5,14 @@
 
 struct node
 {
-    int data;
+    int data;            // !node ke leye pointer assign karte hai 
     struct node *next;
 };
 
 struct node *top = NULL;
 
 void push();
-void pop();
+void pop();         // ^operations
 void peek();
 void display();
 

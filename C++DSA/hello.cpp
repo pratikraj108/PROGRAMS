@@ -33,3 +33,13 @@ int main(){
 		
     return 0;
 }
+
+
+
+
+/*  complex *c=new complex[2];
+    c[0]=complex(2,3);
+    c[1]=complex(4,5);
+    complex c3;
+    c3.mul(c[0],c[1]);
+    c3.display();*/
