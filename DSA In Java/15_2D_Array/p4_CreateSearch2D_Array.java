@@ -29,14 +29,7 @@ public class p4_CreateSearch2D_Array {
         System.out.print("Enter key to search: ");
         int key = sc.nextInt();
 
-        // Output matrix
-        System.out.println("Matrix is:");
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+         
 
         // Search for the key
         search(matrix, key);
