@@ -1,4 +1,0 @@
-Name:pratik
-Roll_No:127
-Marks:23
-Grade:A

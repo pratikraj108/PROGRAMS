@@ -33,6 +33,7 @@ public class p8B_InBuiltSortRange {
         // Arrays.sort(arr);
         Arrays.sort(arr, 0 , 3);
         printArr(arr);
+        sc.close();
     }
 }
 

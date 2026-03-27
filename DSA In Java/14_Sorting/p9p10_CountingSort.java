@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 import java.util.Scanner;
 
 public class p9p10_CountingSort {
@@ -39,5 +39,6 @@ public class p9p10_CountingSort {
         }
         countingShort(arr);
         printArr(arr);
+        sc.close();
     }
 }

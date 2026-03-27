@@ -37,5 +37,6 @@ public class p14_MaxSubarray_OptimalApproach {
         }
         System.out.println();
         pefixSum(numbers);
+        sc.close();
     }
 }

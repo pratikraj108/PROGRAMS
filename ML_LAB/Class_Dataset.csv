@@ -1,0 +1,12 @@
+Department,Age,Salary,Position
+PerSonal,31-40,Med,Boss
+PerSonal,21-30,Low,Assistant
+PerSonal,31-40,Low,Assistant
+Mis,21-30,Med,Assistant
+Mis,31-40,High,Boss
+Mis,21-30,Med,Assistant
+Mis,41-50,High,Boss
+Admin,31-40,Med,Boss
+Admin,31-40,Med,Assistant
+Security,41-50,Med,Boss
+Security,21-30,Low,Assistant

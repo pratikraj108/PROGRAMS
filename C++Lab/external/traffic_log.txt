@@ -1,4 +1,0 @@
-Signal State Change - State: GREEN, Time: 10:00 AM
-Vehicle Entry - Type: Car, ID: 101, Time: 10:05 AM
-Signal State Change - State: GREEN, Time: 10:00 AM
-Vehicle Entry - Type: Car, ID: 101, Time: 10:05 AM

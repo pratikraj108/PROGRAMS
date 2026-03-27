@@ -38,5 +38,6 @@ public class p16p17_RainWaterTrap {
         }
         TrapRainWater(height);
         System.out.println("Total Trapped water is:"+TrapRainWater(height));
+        sc.close();
     }
 }

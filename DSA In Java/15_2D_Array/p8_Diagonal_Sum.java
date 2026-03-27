@@ -43,6 +43,6 @@ public class p8_Diagonal_Sum {
             System.out.println();
         }
         System.out.println( diagonalSum(matrix));
-       
+       sc.close();
     }
 }

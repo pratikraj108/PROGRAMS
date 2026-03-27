@@ -6,10 +6,10 @@ public class p14_Break_multipleOf10 {
         System.out.println("Enter your number:");
         int n=sc.nextInt();
         if(n%10==0){
-            continue;
+            break;
         }
         System.out.println("Number was"+n);
     }while(true);
-    // sc.close();
+    sc.close();
 }
 }

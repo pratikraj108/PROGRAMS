@@ -1,0 +1,102 @@
+True Division (/)
+True division in Python always returns a float result, regardless of whether the operands are integers or floats. It performs exact mathematical division just like a calculator. This operator was introduced as the default division behavior in Python 3, replacing the old integer division behavior of Python 2.
+Example: 10 / 2 gives 5.0 (float, not 5)
+
+Floor Division (//)
+Floor division in Python divides two numbers and returns the largest integer less than or equal to the result, effectively rounding down toward negative infinity. The return type is int if both operands are integers, and float if either operand is a float. It is especially useful when you need a whole number quotient without any decimal part.
+Example: 10 // 3 gives 3 and -7 // 2 gives -4 (not -3)
+===============================================================================
+Tuple Immutability
+A tuple in Python is an immutable data structure, meaning once a tuple is created, its elements cannot be changed, added, or deleted. Tuples are defined using parentheses () and can store multiple values of different data types. Because of their immutable nature, tuples are faster than lists and are used to store data that should remain constant throughout the program.
+
+Tuple Packing
+Tuple packing is the process of assigning multiple values into a single tuple variable. Python automatically packs the values together into one tuple object. You can pack values with or without parentheses, as Python treats comma-separated values as a tuple by default.
+t = (10, 20, 30)      # with parentheses
+t = 10, 20, 30        # without parentheses — still a tuple!
+print(t)              # → (10, 20, 30)
+print(type(t))        # → <class 'tuple'>
+
+True division vs floor division in Pythonwhat is true division, floor division in python definition for exam persecptive11:53 pmPython Division Types
+True Division /
+Always returns a float, even if both operands are integers.
+python10 / 3   # → 3.3333...
+8 / 2    # → 4.0  (float, not int!)
+-7 / 2   # → -3.5
+Floor Division //
+Returns the largest integer ≤ result (rounds down toward negative infinity).
+python10 // 3   # → 3
+8 // 2    # → 4   (int)
+-7 // 2   # → -4  (NOT -3! floors toward -∞)
+7.5 // 2  # → 3.0 (float if operand is float)
+
+Key Exam Points
+FeatureTrue Division /Floor Division //Return typeAlways floatint (unless float operand)RoundingNo roundingRounds toward −∞-7 / 2-3.5-48 / 24.04
+
+The Tricky Negative Number Case ⚠️
+This is the most common exam trap:
+python-7 // 2   # → -4  (floors DOWN to -4, not truncates to -3)
+7 // -2   # → -4  (same logic)
+Floor division always goes toward negative infinity, not toward zero. This differs from truncation (which goes toward zero).
+
+One-Line Definitions (for exams)
+
+True division → Always returns a float; performs exact mathematical division.
+Floor division → Returns the quotient rounded down to the nearest integer (toward −∞).
+give theory alleast 2 , 3 lines11:54 pmTrue Division (/)
+True division in Python always returns a float result, regardless of whether the operands are integers or floats. It performs exact mathematical division just like a calculator. This operator was introduced as the default division behavior in Python 3, replacing the old integer division behavior of Python 2.
+Example: 10 / 2 gives 5.0 (float, not 5)
+
+Floor Division (//)
+Floor division in Python divides two numbers and returns the largest integer less than or equal to the result, effectively rounding down toward negative infinity. The return type is int if both operands are integers, and float if either operand is a float. It is especially useful when you need a whole number quotient without any decimal part.
+Example: 10 // 3 gives 3 and -7 // 2 gives -4 (not -3)
+
+Key Difference Between the Two
+The fundamental difference between true division and floor division is that true division always preserves the decimal part of the result, while floor division discards it by rounding down. For positive numbers, floor division behaves like truncation, but for negative numbers the behavior differs — floor division rounds toward negative infinity, not toward zero. This distinction is critical and frequently tested in exams.tuple immutable()
+         
+ tuple packing, tuple unpacking, tuple indexing,tuple slicing11:56 pmTuple Immutability
+A tuple in Python is an immutable data structure, meaning once a tuple is created, its elements cannot be changed, added, or deleted. Tuples are defined using parentheses () and can store multiple values of different data types. Because of their immutable nature, tuples are faster than lists and are used to store data that should remain constant throughout the program.
+pythont = (1, 2, 3)
+t[0] = 10  # ❌ TypeError: 'tuple' object does not support item assignment
+
+Tuple Packing
+Tuple packing is the process of assigning multiple values into a single tuple variable. Python automatically packs the values together into one tuple object. You can pack values with or without parentheses, as Python treats comma-separated values as a tuple by default.
+pythont = (10, 20, 30)      # with parentheses
+t = 10, 20, 30        # without parentheses — still a tuple!
+print(t)              # → (10, 20, 30)
+print(type(t))        # → <class 'tuple'>
+
+Tuple Unpacking
+Tuple unpacking is the process of extracting values from a tuple and assigning them to individual variables in a single statement. The number of variables on the left must match the number of elements in the tuple, otherwise Python raises a ValueError. It is a clean and Pythonic way to work with tuples.
+t = (10, 20, 30)
+a, b, c = t           # unpacking
+print(a)  # → 10
+print(b)  # → 20
+print(c)  # → 30
+
+# Mismatch example:
+a, b = t              # ❌ ValueError: too many values to unpack
+
+Tuple Indexing
+Tuple indexing allows you to access individual elements of a tuple using their position. Python supports both positive indexing (left to right, starting at 0) and negative indexing (right to left, starting at -1). Accessing an index beyond the tuple's range raises an IndexError.
+t = (10, 20, 30, 40, 50)
+
+# Positive indexing
+print(t[0])   # → 10
+print(t[2])   # → 30
+
+# Negative indexing
+print(t[-1])  # → 50
+print(t[-2])  # → 40
+
+# Out of range
+print(t[10])  # ❌ IndexError
+
+Tuple Slicing
+Tuple slicing allows you to extract a portion (sub-tuple) from a tuple using the syntax t[start : stop : step]. The start index is inclusive, the stop index is exclusive, and step defines the gap between elements. Slicing always returns a new tuple and never modifies the original.
+t = (10, 20, 30, 40, 50)
+
+print(t[1:4])    # → (20, 30, 40)   start=1, stop=4
+print(t[:3])     # → (10, 20, 30)   from beginning
+print(t[2:])     # → (30, 40, 50)   till end
+print(t[::2])    # → (10, 30, 50)   every 2nd element
+print(t[::-1])   # → (50, 40, 30, 20, 10)  reversed

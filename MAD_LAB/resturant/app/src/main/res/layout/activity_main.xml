@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Menu"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Item 0 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Butter Chicken - Rs.220"/>
+            <Button android:id="@+id/btnRemove0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount0" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 1 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Paneer Tikka - Rs.180"/>
+            <Button android:id="@+id/btnRemove1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount1" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 2 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Dal Makhani - Rs.150"/>
+            <Button android:id="@+id/btnRemove2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount2" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 3 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Biryani - Rs.260"/>
+            <Button android:id="@+id/btnRemove3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount3" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 4 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Naan - Rs.40"/>
+            <Button android:id="@+id/btnRemove4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount4" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 5 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Mango Lassi - Rs.80"/>
+            <Button android:id="@+id/btnRemove5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount5" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 6 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Samosa - Rs.60"/>
+            <Button android:id="@+id/btnRemove6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount6" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 7 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Gulab Jamun - Rs.90"/>
+            <Button android:id="@+id/btnRemove7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount7" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Item 8 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="16dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Masala Chai - Rs.30"/>
+            <Button android:id="@+id/btnRemove8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+            <TextView android:id="@+id/tvCount8" android:layout_width="30dp" android:layout_height="wrap_content" android:text="0" android:gravity="center"/>
+            <Button android:id="@+id/btnAdd8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+        </LinearLayout>
+
+        <!-- Total -->
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: Rs.0"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Bill"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -26,6 +26,7 @@ public class p12_PrintSubArray {
             numbers[i]=sc.nextInt();
         }
     printfSubarray(numbers);
+    sc.close();
     }
 }
  

@@ -30,5 +30,6 @@ public class p6p7_InsertionSort {
         }
         InsertionSort(arr);
         printArr(arr);
+        sc.close();
     }
 }

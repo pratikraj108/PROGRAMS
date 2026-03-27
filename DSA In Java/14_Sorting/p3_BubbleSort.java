@@ -36,7 +36,7 @@ public class p3_BubbleSort {
         System.out.println();
         bubbleSort(arr);
        printArr(arr);
-
+        sc.close();
     }
 }
 // time complexity =  O(n^2)

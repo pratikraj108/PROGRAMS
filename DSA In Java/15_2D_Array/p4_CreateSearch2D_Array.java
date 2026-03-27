@@ -33,6 +33,7 @@ public class p4_CreateSearch2D_Array {
 
         // Search for the key
         search(matrix, key);
+        sc.close();
     }
     
 }

@@ -12,6 +12,7 @@ public class p4_characterPattern {
                 ch++;
             }
             System.out.println();
+            sc.close();
         }
     }
 }

@@ -36,5 +36,6 @@ public class p8C_InBuiltSortReverse {
         // Arrays.sort(arr, 0 , 3);
         Arrays.sort(arr,Collections.reverseOrder());
         printArr(arr);
+        sc.close();
     }
 }

@@ -33,5 +33,6 @@ public class p8A_InBuiltSort {
         Arrays.sort(arr);
         // Arrays.sort(arr, 0 , 3);
         printArr(arr);
+        sc.close();
     }
 }

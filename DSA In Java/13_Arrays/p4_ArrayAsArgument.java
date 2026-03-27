@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 public class p4_ArrayAsArgument {
     public static void update(int marks[],int nonChangable){
         nonChangable=10;

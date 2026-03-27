@@ -16,8 +16,10 @@ public class p3a_calculateSum {
         int b=sc.nextInt();
         int sum=a+b;
         System.out.println("sum is :"+ sum);
+        sc.close();
     }  
     public static void main(String args[]){
         calculateSum();
+        
     }
 }

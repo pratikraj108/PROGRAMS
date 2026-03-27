@@ -35,6 +35,7 @@ public class p8D_InBuiltSortReverseRange {
         // Arrays.sort(arr, 0 , 3);
         Arrays.sort(arr,0,3, Collections.reverseOrder());
         printArr(arr);
+        sc.close();
     }
 }
 

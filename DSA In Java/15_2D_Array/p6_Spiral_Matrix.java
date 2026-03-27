@@ -57,5 +57,6 @@ public class p6_Spiral_Matrix {
             System.out.println();
         }
         printSpiral(matrix);
+        sc.close();
       }
 }

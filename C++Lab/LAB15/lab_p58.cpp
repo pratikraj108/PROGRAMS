@@ -1,1 +1,0 @@
-//WAP to handle an exzeprion for divide by zero problem.

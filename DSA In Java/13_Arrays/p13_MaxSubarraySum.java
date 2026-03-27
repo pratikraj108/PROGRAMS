@@ -31,5 +31,6 @@ public class p13_MaxSubarraySum {
         }
         System.out.println();
     MaxSubarray(numbers);
+    sc.close();
     }
 }

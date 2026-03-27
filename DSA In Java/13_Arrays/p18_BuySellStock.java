@@ -25,6 +25,7 @@ public class p18_BuySellStock {
             prices[i]=sc.nextInt();
         }
        System.out.println ("Maximum Profit:"+BuyAndSellStock(prices));
+        sc.close();
     }
 }
 

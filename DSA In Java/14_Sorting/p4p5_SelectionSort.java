@@ -33,6 +33,7 @@ public class p4p5_SelectionSort {
         System.out.println();
         SelectionSort(arr);
         printArr(arr); 
+        sc.close();
     }
 }
   // time complexity   =   O(n^2)

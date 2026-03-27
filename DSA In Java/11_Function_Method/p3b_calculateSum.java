@@ -10,5 +10,6 @@ public class p3b_calculateSum {
         int a=sc.nextInt();
         int b=sc.nextInt();
         calculateSum(a,b);
+        sc.close();
     }
 }

@@ -37,6 +37,7 @@ public class Q1 {
             nums[i] = sc.nextInt();
         }
         System.out.println(ValueChecker(nums));
+        sc.close();
     }
 }
  
